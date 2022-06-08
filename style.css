@@ -56,6 +56,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
 }
+
 .header-container {
     margin-top: 2rem;
     border-radius: 55% 55% 0  0;
@@ -84,13 +85,13 @@ body {
  }
 
  .container-cv {
- font-size: 1.8rem;
- line-height: 2.6rem;
-  display:flex;
-flex-wrap: wrap;
- flex-direction: row;
-     box-shadow: 3px 0 0 rgb(158, 158, 158); 
- }
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow: 3px 0 0 rgb(158, 158, 158); 
+  }
 
  .section-about {
     padding: 2rem;
@@ -112,8 +113,7 @@ flex-wrap: wrap;
 .section-cv {
     padding: 2rem;
     width: 70%;
-    background-color: #fffdfd;
-    
+    background-color: #fffdfd;  
  }
 
  .title-name {
@@ -122,10 +122,12 @@ flex-wrap: wrap;
     letter-spacing: 1rem;
     color:#49321e;
 }
+
 .skills-list {
   padding: 0 0 0 2rem;
   list-style-type: circle;
 }
+
  .section-title {
     color: #bd854c;
     text-transform: uppercase;
@@ -137,21 +139,24 @@ flex-wrap: wrap;
 }
 
  .section-list {
- 
   list-style: none;
 }
+
 .section-item a {
     text-decoration: none; 
     color: #a39d94;
 }
+
 .section-item a:hover {
   transition: .3s;
   color: #a59378;
 }
+
 .project {
   text-decoration: none;
   color: #a39d94;
 }
+
 .project:hover {
   transition: .3s;
   color: #a59378;
@@ -167,17 +172,19 @@ flex-wrap: wrap;
     margin-bottom: 2rem;
     background-color: rgba(224, 211, 185, 0.6);
     box-shadow: 3px 0 0 rgb(158, 158, 158);
-    
-    border-bottom: 2px solid ;
+    border-bottom: 2px solid rgb(158 158 158) ;
   }
+
   .footer-link {
      text-decoration: none;
      color: #a39d94;
      transition: .3s;
     }
+
     .footer-link:hover {
       color: #a59378;
     }
+
   #skills .section-title::before {
     content: "";
     display: inline-block;
@@ -185,8 +192,8 @@ flex-wrap: wrap;
     width: 2rem;
     height: 2rem;
     padding-right: 2rem;
-
   }
+  
   #contacts .section-title::before {
     content: "";
     display: inline-block;
